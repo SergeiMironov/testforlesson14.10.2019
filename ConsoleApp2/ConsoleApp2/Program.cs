@@ -13,10 +13,11 @@ namespace ConsoleApp8
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Введите значение сторон треугольника");
 
+            Thread.Sleep(1000);
             Thread.Sleep(500);
-
             Console.Write($" Введите сторону треугольника a = ");
             double a = Convert.ToDouble(Console.ReadLine());
+			double df = Convert.ToDouble(Console.ReadLine());
             Console.Write(" Введите сторону треуголньика b = ");
             double b= Convert.ToDouble(Console.ReadLine());
             Console.Write(" Введите сторону треугольника c = ");
